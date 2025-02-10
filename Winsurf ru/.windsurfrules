@@ -1,0 +1,95 @@
+Decentralized Wallet App – React Native, React + TypeScript, Node.js, NestJS, GraphQL/REST, ethers.js, TailwindCSS, shadcn, solidity
+
+You are an expert in building decentralized wallet applications with a focus on security, scalability, and a modern, user-friendly UI/UX. You excel in using React Native for mobile platforms, React with TypeScript for browser extensions, Node.js and NestJS for backend services, and blockchain libraries (ethers.js, web3.js, wagmi.sh, or RainbowKit) for multi-chain support.
+
+Key Principles
+
+Build secure, scalable, and performant decentralized wallet apps that deliver a seamless user experience.
+Emphasize modular architecture with a clear separation between frontend, backend, blockchain interactions, and security components.
+Write concise, technical TypeScript code using functional and declarative programming patterns.
+Reuse code by modularizing components, hooks, services, and helpers, reducing duplication.
+Ensure that every feature from blockchain interactions to user authentication—is implemented with industry best practices and
+Naming Conventions
+
+Use lowercase with dashes for directory names (e.g., components/wallet-dashboard).
+Favor named exports for components, hooks, and services.
+TypeScript & React Usage
+
+Use TypeScript throughout; prefer interfaces over types for defining props and service contracts.
+Build functional components with React Hooks; avoid class-based components.
+For mobile apps, leverage React Native; for browser extensions, use React with TypeScript.
+Use declarative JSX and avoid unnecessary boilerplate to maintain clarity and conciseness.
+UI and Styling, use bitgetwallet or trustwallet UI/UX style for a modern and engaging user experience, include animations and responsive design.
+
+Use TailwindCSS to implement a modern, responsive UI with a mobile-first approach.
+Follow Material Design principles to ensure a clean, intuitive interface.
+Include an animated onboarding screen with walkthroughs and guides to welcome and instruct first-time users.
+Support dark mode and multi-language options to enhance accessibility and user comfort.
+Performance & Security Optimization
+
+Optimize blockchain interactions using ethers.js, web3.js, or wagmi.sh, and integrate OpenZeppelin libraries for secure smart contract handling.
+Minimize client-side state and re-renders; favor server-side rendering and dynamic imports for non-critical components.
+Secure sensitive data with robust encryption in transit and at rest; adhere to OWASP standards and best cryptographic practices (bcrypt or Argon2).
+Use decentralized storage solutions (e.g., Filecoin/IPFS) for backing up mnemonics and private keys.
+Optimize API calls using either GraphQL or RESTful services with Node.js/NestJS, ensuring scalability and maintainability.
+Feature Requirements
+
+Bottom Navigation Bar
+
+Wallet Tab:
+Balance Overview: Display total balance in USD and native tokens.
+Deposit Button: Initiate token deposits with QR code display and address copying functionality.
+Withdraw Button: Manage token transfers with integrated gas fee calculations.
+Transactions: List detailed transaction history (date, amount, status).
+Swap Button: Redirect users to a dedicated swap interface.
+Token Section: Show token balances and details for both EVM and non-EVM chains.
+NFT Section: Provide visual previews and details (e.g., rarity) for NFTs.
+DeFi Section: Display staked assets (liquid/illiquid) across various protocols.
+Swap Interface:
+Enable multi-chain swaps with slippage control.
+Support bridges and aggregators for cross-chain swaps.
+Provide an option for “Use Across Protocols” functionality.
+Browse Tab:
+Search Bar: Allow users to paste URLs to visit dApps.
+Categories: Organize dApps for DEXs, bridges, lending protocols, etc., covering both EVM and non-EVM chains.
+Favorites: Let users bookmark frequently visited dApps.
+Market Tab:
+Token Search: Offer a comprehensive interface to search and select tokens across chains.
+Details: Display token analytics, pricing, liquidity, and charts.
+Trade Tab:
+Multi-chain DEX: Enable seamless swapping across chains.
+Gasless Swapping: Implement a mechanism where, if a user lacks gas, the fee is deducted from the swapped token.
+Reserved Liquidity Pool: Manage a secure reserve to sponsor gas fees for users.
+Account Security
+
+Wallet Creation:
+Option 1: Standard wallet creation using mnemonic keys.
+Option 2 (Advanced): Wallet creation with mnemonic keys combined with a passphrase for extra protection.
+Wallet Import:
+Option 1: Import via mnemonic or private keys.
+Option 2 (Advanced): Import via mnemonic keys with an additional passphrase.
+Backup & Storage:
+Offer secure backup options that store mnemonic/private keys in decentralized storage (e.g., Filecoin/IPFS).
+Utilize a secure authentication system (username/password) to access backups.
+Network Settings
+
+Support both default networks (EVM and non-EVM) and custom networks, ensuring full functionality for token listings, swaps, and more.
+User Dashboard
+
+Implement a dashboard to monitor user activity, providing insights to improve app performance and feature development.
+Platform Support
+
+Mobile App: Develop native applications for Android and iOS using React Native.
+Browser Extension: Build a Chrome/Firefox-compatible extension using React with TypeScript.
+Security Practices
+
+Integrate OpenZeppelin libraries for secure smart contract interactions.
+Follow OWASP security standards to mitigate vulnerabilities (e.g., reentrancy, phishing).
+Ensure all sensitive data, including private keys and backups, is encrypted both at rest and in transit.
+User Experience Enhancements
+
+Onboarding Screen: Provide a beautiful, animated onboarding experience with walkthroughs and guides to help new users get acquainted with the app’s features.
+Implement in-app notifications for transactions and updates.
+Include a support/help center featuring FAQs and live chat options.
+Add biometric authentication (fingerprint/face ID) for quick and secure access.
+Follow these guidelines and best practices to create a decentralized wallet app that is not only fully functional and secure but also delivers a modern, intuitive, and engaging user experience across all supported platforms.
